@@ -1,0 +1,21 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "Este es el microservicio de vehiculos para la aplicacion dreamcars",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js"
+    },
+    "author": "Kevin Maldonado <k_maldonado12@hotmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "mongoose": "^5.4.3",
+        "morgan": "^1.9.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.9"
+    }
+}
