@@ -17,6 +17,10 @@ app.set('port', expressConfig.getPort());
 app.use(morgan('dev'));
 app.use(expressConfig.getUrlEncode());
 
+//BodyParser
+app.use(expressConfig.getBodyParserJson());
+app.use(expressConfig.getBodyParserEncoder());
+
 // routes
 app.use('/', vehicleRoutes);
 

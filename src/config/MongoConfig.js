@@ -5,5 +5,5 @@ exports.getMongoApp = function() {
     },
 
     exports.getMongoUrlDatabaseConection = function() {
-        return '';
+        return 'mongodb://localhost/VehicleDreamcars';
     }
